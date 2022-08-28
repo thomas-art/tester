@@ -98,7 +98,7 @@
 
 		prefetch(to);
 		axios.get(to, {responseType: 'document'}).then((resp) => document.getElementById('dest').innerText = resp.data.title || new URL(to).hostname);
-		window.setTimeout(() => travelling(to), 3000);
+		window.setTimeout(() => travelling(to), 10000);
     </script>
     <script src="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js">
     </script>
