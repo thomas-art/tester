@@ -1,0 +1,100 @@
+Uri: https://img.shields.io/github/stars/travellings-link/travellings?style=social
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\github\stars\travellings-link\travellings
+Content Type: image/svg+xml
+
+Uri: https://npm.elemecdn.com/axios@0.27.2/dist/axios.min.js
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\axios@0.27.2\dist\axios.min.js
+Content Type: application/javascript
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/css/all.min.css
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\css\all.min.css
+Content Type: text/css
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-brands-400.ttf
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-brands-400.woff
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-brands-400.woff2
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-duotone-900.ttf
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-duotone-900.ttf
+Content Type: font/ttf
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-duotone-900.woff
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-duotone-900.woff
+Content Type: font/woff
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-duotone-900.woff2
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-duotone-900.woff2
+Content Type: font/woff2
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-light-300.woff
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-light-300.woff
+Content Type: font/woff
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-light-300.woff2
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-light-300.woff2
+Content Type: font/woff2
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-regular-400.ttf
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-regular-400.woff
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-regular-400.woff2
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-solid-900.ttf
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-solid-900.woff
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-solid-900.woff2
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-thin-100.woff
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-thin-100.woff
+Content Type: font/woff
+
+Uri: https://npm.elemecdn.com/font6pro@6.0.1/webfonts/fa-thin-100.woff2
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\font6pro@6.0.1\webfonts\fa-thin-100.woff2
+Content Type: font/woff2
+
+Uri: https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\volantis-static@0.0.1654736714924\libs\izitoast\dist\js\iziToast.min.js
+Content Type: application/javascript
+
+Uri: https://travellings.cn/
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\index.htm
+Content Type: text/html
+
+Uri: https://travellings.cn/assets/favicon.png
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\assets\favicon.png
+Content Type: image/png
+
+Uri: https://travellings.cn/assets/script.js
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\assets\script.js
+Content Type: application/javascript
+
+Uri: https://travellings.cn/assets/style.css
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\assets\style.css
+Content Type: text/css
+
+Uri: https://travellings.cn/assets/travelling-light.png
+File Name: C:\Users\User\Desktop\kaiwang\travellings.cn\assets\travelling-light.png
+Content Type: image/png
+

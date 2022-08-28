@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开往-友链接力</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link href="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/css/iziToast.min.css" rel="stylesheet">
+    <link href="font6pro%406.0.1/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="ticket airline">
+	<div class="destination">
+		<div class="title-row">
+			<div class="from">
+				<h1><span id="from">开往</span></h1>
+				<p>出发站</p>
+			</div>
+			<div class="icon">
+				<h1><i class="fa-light fa-train-subway"></i></h1>
+				<p><i class="fa-solid fa-arrow-right-long"></i></p>
+			</div>
+			<div class="dest">
+				<h1><span id="dest">……</span></h1>
+				<p>目的地</p>
+			</div>
+		</div>
+		<!-- <h1><span id="from">开往</span> <i class="fa-light fa-train-subway"></i> <span id="dest">……</span></h1>
+		<div class="small-des">
+			<p>出发站</p><i class="fa-solid fa-arrow-right-long"></i><p>目的地</p>
+		</div> -->
+	</div>
+	<div class="container">
+		<div class="watermark">
+			<div class="info">
+				<div class="row">
+					<p>TRAVELLINGS <span>开往</span></p>
+				</div>
+				<div class="row">
+					<a href="https://github.com/travellings-link/travellings" target="_blank" title="点击加入“开往”，分享网站流量 :-)"><p>一起开往下一个世界… <span>let's travelling to the next</span></p></a>
+				</div>
+				<div class="row">
+					<p id="boarding-date"><span>发车日期</span></p>
+					<p id="boarding-time"><span>发车时间</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="dots"></div>
+	<div class="cut">
+		↩️ Tips: <b>后退</b>网页可再次开往<br>
+        <a href="https://github.com/travellings-link/travellings" target="_blank">🚇 加入</a>&nbsp;|&nbsp;
+        <a href="https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80" target="_blank">🔮 统计</a>&nbsp;|&nbsp;
+        <a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br>
+		<a href="https://www.tsyvps.com" target="_blank">☕ 感谢蓝易云的服务器</a><br>
+        <a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="github/stars/travellings-link/travellings?style=social" height="18px"></a>
+	</div>
+</div>
+<!-- partial -->
+	<script src="assets/script.js"></script>
+	<script src="axios%400.27.2/dist/axios.min.js"></script>
+	<script language="javascript" type="module">
+		import { travellingNext, rip_url, travelling } from './assets/travelling.js';
+
+		/**
+		 * 链接预加载
+		 * @param {string} url 链接地址
+		 */
+		const prefetch = (url) => {
+			// Add the link to pre-fetch, the browser will fetch it instantly.
+			const prefetchLink = document.createElement('link');
+			prefetchLink.rel = 'prefetch';
+			prefetchLink.href = url;
+			document.head.appendChild(prefetchLink);
+		}
+
+		let to = rip_url;
+		while(to == rip_url) { // Ignore rips
+			to = travellingNext();
+		}
+		const from = document.referrer || false;
+
+		if (from) {
+			document.getElementById('from').innerText = new URL(from).hostname;
+		}
+		document.getElementById('dest').innerText = new URL(to).hostname
+
+		prefetch(to);
+		axios.get(to, {responseType: 'document'}).then((resp) => document.getElementById('dest').innerText = resp.data.title || new URL(to).hostname);
+		window.setTimeout(() => travelling(to), 3000);
+    </script>
+    <script src="volantis-static%400.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js">
+    </script>
+    <script>
+        iziToast.show({
+            title: 'Hi',
+            message: '建立了QQ群,<a href="https://jq.qq.com/?_wv=1027&k=Ym87ov3q" target="_blank">点击进入</a>',
+            icon: 'fa-brands fa-qq',
+            color: 'yellow',
+            time: 30000
+        });
+    </script>
+</body>
+</html>
