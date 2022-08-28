@@ -90,8 +90,7 @@ body {
 .container {
 	width: 90%px;
 	background-color: #fff;
-	-webkit-mask-image: url(travelling-light.svg);
-	mask-image: url(travelling-light.svg);
+	background-image: url(travelling-light.png);
 	background-repeat: no-repeat;
 	background-size: 200px;
 	background-position: center center;
