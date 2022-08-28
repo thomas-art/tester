@@ -1,14 +1,14 @@
-﻿<!DOCTYPE html>
-<html lang="zh">
+<!DOCTYPE html>
+<html lang="zh" >
 <head>
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>开往-友链接力</title>
-    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="shortcut icon" href="./assets/favicon.png">
     <link href="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/css/iziToast.min.css" rel="stylesheet">
-    <link href="font6pro%406.0.1/css/all.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/style.css">
+    <link href="https://npm.elemecdn.com/font6pro@6.0.1/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 <div class="ticket airline">
@@ -50,17 +50,17 @@
 	</div>
 	<div class="dots"></div>
 	<div class="cut">
-		↩️ Tips: <b>后退</b>网页可再次开往<br>
+		↩️ Tips: <b>后退</b>网页可再次开往<br />
         <a href="https://github.com/travellings-link/travellings" target="_blank">🚇 加入</a>&nbsp;|&nbsp;
         <a href="https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80" target="_blank">🔮 统计</a>&nbsp;|&nbsp;
-        <a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br>
-		<a href="https://www.tsyvps.com" target="_blank">☕ 感谢蓝易云的服务器</a><br>
-        <a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="github/stars/travellings-link/travellings?style=social" height="18px"></a>
+        <a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br />
+		<a href="https://www.tsyvps.com" target="_blank">☕ 感谢蓝易云的服务器</a><br />
+        <a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/travellings-link/travellings?style=social" height="18px"></a>
 	</div>
 </div>
 <!-- partial -->
-	<script src="assets/script.js"></script>
-	<script src="axios%400.27.2/dist/axios.min.js"></script>
+	<script src="./assets/script.js"></script>
+	<script src="https://npm.elemecdn.com/axios@0.27.2/dist/axios.min.js"></script>
 	<script language="javascript" type="module">
 		import { travellingNext, rip_url, travelling } from './assets/travelling.js';
 
@@ -91,7 +91,7 @@
 		axios.get(to, {responseType: 'document'}).then((resp) => document.getElementById('dest').innerText = resp.data.title || new URL(to).hostname);
 		window.setTimeout(() => travelling(to), 3000);
     </script>
-    <script src="volantis-static%400.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js">
+    <script src="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js">
     </script>
     <script>
         iziToast.show({
