@@ -64,10 +64,12 @@
 	<script src="https://npm.elemecdn.com/axios@0.27.2/dist/axios.min.js"></script>
 	<script>
 		anime({
-  			targets: '.ticket',
-  			translateY: 1000,
-			duration: 1000
-		     });
+		  targets: '.ticket',
+		  translateY: [0, -750], // from 100 to 250
+		  delay: 2000,
+		  direction: 'alternate',
+		  loop: false
+		});
 	</script>
 	<script language="javascript" type="module">
 		import { travellingNext, rip_url, travelling } from './assets/travelling.js';
