@@ -69,8 +69,10 @@
 		  direction: 'alternate',
 		  loop: false,
 		  easing: 'easeInOutExpo'
+		  complete: function(anim) {
+    		  console.log('Hello Runoob!');
+ 		 }
 		});
-		console.log('Hello Runoob!');
 	</script>
 	<script language="javascript" type="module">
 		import { travellingNext, rip_url, travelling } from './assets/travelling.js';
